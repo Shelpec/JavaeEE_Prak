@@ -3,6 +3,7 @@ import org.graalvm.compiler.lir.LIRInstruction;
 public class User {
     private String name;
     private int age;
+    private String LastName;
 
     public User(){
         name = "dd";
@@ -15,5 +16,9 @@ public class User {
 
     public String getName() {
         return name;
+    }
+    public String getLastName()
+    {
+        return LastName;
     }
 }
