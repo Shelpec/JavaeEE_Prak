@@ -8,6 +8,7 @@ public class User {
     public User(){
         name = "dd";
         age = 18;
+        LastName = "last name";
     }
 
     public int getAge() {
